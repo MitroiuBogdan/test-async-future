@@ -1,16 +1,16 @@
-package com.example.JunitPlayGround.junit5playground;
+package com.example.async;
 
-import com.example.JunitPlayGround.junit5playground.remote.ActivateRemoteService;
+import com.example.async.remote.ActivateRemoteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Junit5PlaygroundApplication implements CommandLineRunner {
+public class AsyncApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
-        SpringApplication.run(Junit5PlaygroundApplication.class, args);
+        SpringApplication.run(AsyncApplication.class, args);
     }
 
     @Autowired

@@ -1,8 +1,4 @@
-package com.example.JunitPlayGround.junit5playground.model;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
+package com.example.async.model;
 
 public class PermissionPOJO {
 

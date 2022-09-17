@@ -1,4 +1,4 @@
-package com.example.JunitPlayGround.junit5playground.model;
+package com.example.async.model;
 
 public class ApiRequest {
 

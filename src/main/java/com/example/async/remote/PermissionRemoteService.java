@@ -1,11 +1,9 @@
-package com.example.JunitPlayGround.junit5playground.remote;
+package com.example.async.remote;
 
-import com.example.JunitPlayGround.junit5playground.model.Grant;
-import com.example.JunitPlayGround.junit5playground.model.PermissionPOJO;
+import com.example.async.model.PermissionPOJO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
 @Service

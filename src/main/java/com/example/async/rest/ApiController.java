@@ -1,7 +1,7 @@
-package com.example.JunitPlayGround.junit5playground.rest;
+package com.example.async.rest;
 
 
-import com.example.JunitPlayGround.junit5playground.model.ApiRequest;
+import com.example.async.model.ApiRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
